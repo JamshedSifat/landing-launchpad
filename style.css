@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F8FF;
+}
 header{
     background-image: url('Assets/Hero-bg.png');
      background-repeat: no-repeat;
@@ -115,4 +119,39 @@ header{
         color:rgb(114, 115, 127);
     }
  
+}
+.focus-section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 0px 149px 0px 151px;
+    border-radius: 20px;
+    img{
+        border-radius: 20px;
+        margin-bottom: 70px;
+    }
+}
+.focus-text{
+    h1{
+        font-size: 50px ;
+        padding: 71px 0px 20px 0px;
+    }
+    p{
+        font-size: 24px;
+        color: rgb(114, 115, 127);
+        padding-bottom: 20px;
+    }
+    button{
+        background-color: #4e47ff;
+        color: white;
+        font-size: 16px;
+        padding: 12px 36px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+
+    }
+    
 }
