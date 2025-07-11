@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('Assets/Hero-bg.png');
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 698px;   
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h1{
+        padding:50px 0px 0px 150px;
+        color:#4e47ff
+
+    }
+    button{
+        margin:51px 150px 0px 0px;
+        background-color: #4e47ff;
+        color: white;
+        font-size: 16px;
+        padding: 12px 36px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+}
+.text-container{
+    text-align: center;
+    padding: 158px 0px 0px 0px;
+    h1{
+        font-size: 65px;
+    }
+    button{
+        background-color: #4e47ff;
+        color: white;
+        font-size: 16px;
+        margin:49px 0px 0px 0px;
+        padding: 12px 36px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+}
+.content-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:116px 0px 0px 0px;
+    padding: 0px 159px 0px 141px;
+
+}
+.text-content{
+    width: 517px;
+    height: 275px;
+    h1{
+        font-size: 42px;
+    }
+    p{
+        font-size: 24px;
+    }
+    button{
+        background-color: #4e47ff;
+        color: white;
+        font-size: 16px;
+        margin: 24px 0px 0px 0px;
+        padding: 12px 36px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+}
+.image-content{
+    img{
+        width: 403px;
+        height: 328px;
+        border-radius: 12px;
+    }
+}
+
+.stats-section{
+    background-color:rgb(229, 231, 255) ;
+    height: 306px;
+    margin: 114px 159px 137px 141px;
+    border-radius: 15px;
+}
+.stats-header{
+    p{
+        font-size: 38px;
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+    }
+}
+.stats-container{
+    display: flex;
+    gap:158px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 159px 50px 141px;
+}
+.stat-item{
+    text-align: center;
+    h1{
+        font-size: 80px;
+        color: #4e47ff;
+    }
+    p{
+        font-size: 20px;
+        color:rgb(114, 115, 127);
+    }
+ 
+}
